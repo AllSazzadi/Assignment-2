@@ -288,13 +288,72 @@
     font-weight: 600;
 }
 
-.game-category-detail:hover{
+.game-category-detail:hover {
     border: 1px solid #F948B2;
     border-radius: 25px;
     cursor: pointer;
 }
 
+/* Footer Style */
 
+footer{
+    background: #0B0223;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer-logo{
+    color: #FFF;
+}
+
+.important-links{
+    display: flex;
+    gap: 20px;
+}
+.important-links a {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+
+.social-icon{
+    margin-left: 90px;
+}
+
+.fa-twitter{
+    width: 100px;
+    color: #FFF;
+}
+.fa-facebook{
+    width: 100px;
+    color: #FFF;
+}
+.fa-square-youtube{
+    width: 100px;
+    color: #FFF;
+}
+.fa-linkedin-in{
+    width: 100px;
+    color: #FFF;
+}
+.fa-instagram{
+    width: 100px;
+    color: #FFF;
+}
+.fa-apple{
+    width: 100px;
+    color: #FFF;
+}
+
+.copy-right{
+    color: #FFF;
+}
 
 
 
@@ -422,7 +481,24 @@
         margin-top: 130px;
 
     }
-    .game-category-container{
+
+    .game-category-container {
         margin-top: 200px;
+        margin-bottom: 200px;
+    }
+
+    footer{
+        height: 400px;
+        padding: 10px;
+    }
+
+
+    .important-links, .social-icon {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-items: center;
+        row-gap: 10px;
+
     }
 }
