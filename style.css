@@ -17,6 +17,7 @@
     font-weight: 500;
 }
 
+
 .shared-title {
     font-size: 2rem;
     font-weight: 700;
@@ -185,14 +186,43 @@
 
 .online-games-img-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin-top: 10px;
-    gap: 10px;
 }
 
 .online-games-img {
     width: 230px;
 }
+
+.online-game-img-title{
+    width: 240px;
+}
+
+.hover{
+    width: 230px;
+    height: 269px;
+    border-radius: 9px;
+    position: absolute;
+    margin-top: -310px;
+    margin-left: 6px;
+    opacity: 0;
+}
+.hover-content{
+    padding-top: 135px;
+    color: red;
+}
+
+/* .online-games-img:hover {
+    opacity: 0.5;
+} */
+
+.hover:hover{
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+
 
 /* Play Instant Section Style */
 
@@ -258,7 +288,6 @@
 
 .game-category-section {
     width: 75%;
-    /* height: 300px; */
     margin: auto;
 }
 
@@ -435,6 +464,15 @@ footer{
 
     .gamer-detail-three {
         font-size: 1rem;
+    }
+
+    .hover{
+        margin-top: -310px;
+        margin-left: 44px;
+    }
+
+    .online-game-img-title{
+        margin-left: 44px;
     }
 
     .play-instant-title {
