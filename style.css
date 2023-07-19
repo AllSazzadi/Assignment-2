@@ -327,6 +327,10 @@
     border-radius: 25px;
     cursor: pointer;
 }
+.game-category-title:hover{
+    color: #F948B2;
+}
+
 
 /* Footer Style */
 
@@ -524,7 +528,7 @@ footer {
     .play-online-img-one {
         width: 250px;
         position: absolute;
-        margin-left: 10px;
+        margin-left: 70px;
     }
 
     .play-online-img-two {
@@ -574,10 +578,6 @@ footer {
         font-size: 65px;
     }
 
-    .gamer-container {
-        height: auto;
-    }
-
     .navigation,
     .banner-container,
     .gamer-container,
@@ -586,6 +586,7 @@ footer {
     .play-online-container,
     .game-category-section {
         width: 100%;
+        padding: 15px;
     }
 
     .hover-container {
