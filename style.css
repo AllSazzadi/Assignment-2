@@ -548,6 +548,8 @@ footer {
     }
 
     .game-category-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         margin-top: 200px;
         margin-bottom: 200px;
     }
