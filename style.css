@@ -361,9 +361,11 @@ footer {
 
 }
 
-.social-icon {
-    margin-left: 90px;
+.social-icon{
+    margin-left: 100px;
 }
+
+
 
 .fa-twitter {
     width: 100px;
@@ -397,6 +399,14 @@ footer {
 
 .copy-right {
     color: #FFF;
+}
+
+.social-icon-btn{
+    border: none;
+    background: #0B0223;
+    border-radius: 50%;
+    margin-right: 10px;
+
 }
 
 
