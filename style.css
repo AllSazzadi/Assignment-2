@@ -296,17 +296,8 @@
     margin: auto;
 }
 
-.game-category-container {
-    height: 300px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    justify-content: space-evenly;
-    align-content: center;
-    row-gap: 50px;
-    gap: 20px;
-}
 
-/* .game-category-container {
+.game-category-container {
     height: 300px;
     display: flex;
     flex-wrap: wrap;
@@ -314,7 +305,7 @@
     align-content: center;
     row-gap: 50px;
     gap: 20px;
-} */
+}
 
 .game-category-detail {
     display: flex;
